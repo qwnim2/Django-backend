@@ -3,7 +3,6 @@ An easy-to-follow example integrating React with Django for building web applica
 
 ## Technologies Used
 - **Backend**: Django, Django REST Framework
-- **Frontend**: React, Axios
 
 ## Setup
 
@@ -22,20 +21,9 @@ An easy-to-follow example integrating React with Django for building web applica
    python manage.py runserver
    ```
 
-
-
-### Frontend (React)
-1. Navigate to the frontend folder:
-   ```bash
-   cd myapp
-   ```
-2. Install packages and start the server:
-   ```bash
-   npm install
-   npm start
-   ```
-
 ### API Endpoints
 * **`GET /hello-world/`** : Returns the current server time.
 * **`GET /cat-image/`** : Returns a random cat image URL.
    
+### React Frontend Repo
+Check out the React frontend repo: https://github.com/qwnim2/react-app.git
